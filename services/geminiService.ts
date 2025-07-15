@@ -1,4 +1,4 @@
-import { GoogleGenerativeAI, Chat } from '@google/genai';
+import GoogleGenerativeAI, { Chat } from '@google/genai';
 import { ProjectInput, AnalysisReport, GeminiService } from '../types';
 
 export const initGeminiService = (apiKey: string): GeminiService => {
